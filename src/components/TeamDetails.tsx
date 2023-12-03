@@ -36,7 +36,7 @@ export default function TeamDetails(props:any) {
         inputElement.style.width=(calculatedWidth > maxWidth)?`${maxWidth}px`:`${calculatedWidth}px`;
     };
     
-    const inputStyle = {
+    const inputStyle:React.CSSProperties = {
         textOverflow: textValue.length > textSize ? 'ellipsis' : 'clip',
         overflow: 'hidden',
         whiteSpace: 'nowrap',

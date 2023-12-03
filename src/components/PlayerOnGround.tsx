@@ -3,10 +3,10 @@ import { setSelectedPlayerIndex } from "../redux/formationGround/formationGround
 
 export default function PlayerOnGround(props:any)
 {
-    const playerStyle = {
+    const playerStyle:React.CSSProperties = {
         top: props.top,
         left: props.left,
-        position: 'absolute',
+        position: "absolute",
     };
 
     const selectedPlayerIndex = useSelector((state:any) => state.formationGround.selectedPlayerIndex);

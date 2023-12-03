@@ -1,4 +1,3 @@
-import { useSelector } from "react-redux";
 import FormationGround from "../components/FormationGround";
 import TeamDetails from "../components/TeamDetails";
 

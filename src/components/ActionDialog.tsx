@@ -5,7 +5,7 @@ import trashAlt from "../assets/trash-alt.svg";
 import { setActionEnabled, setDeleteEnabled, setEditEnabled } from "../redux/playerAction/playerActionSlice";
 import { setPlayerName, setJerseyNumber, setStarter, setPosition, setHeight, setWeight, setNationality } from "../redux/editPlayer/editPlayerSlice";
 
-export default function ActionDialog(props:any)
+export default function ActionDialog()
 {
     const selectedPlayerIndex = useSelector((state:any) => state.playerAction.selectedPlayerIndex);
     const playerData = useSelector((state:any) => state.playerDetails.playerData);
